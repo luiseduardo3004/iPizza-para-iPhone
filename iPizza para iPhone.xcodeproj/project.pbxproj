@@ -12,6 +12,11 @@
 		D34057611EA59D6D007CF643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D340575F1EA59D6D007CF643 /* Main.storyboard */; };
 		D34057631EA59D6D007CF643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34057621EA59D6D007CF643 /* Assets.xcassets */; };
 		D34057661EA59D6D007CF643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34057641EA59D6D007CF643 /* LaunchScreen.storyboard */; };
+		D340576E1EA59E5E007CF643 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D340576D1EA59E5E007CF643 /* pizza.jpg */; };
+		D34057701EA5B761007CF643 /* MasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340576F1EA5B761007CF643 /* MasaViewController.swift */; };
+		D34057741EA5BD25007CF643 /* QuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34057731EA5BD25007CF643 /* QuesoViewController.swift */; };
+		D34057761EA5BE29007CF643 /* IngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34057751EA5BE29007CF643 /* IngredientesViewController.swift */; };
+		D340577A1EA5D738007CF643 /* PedidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34057791EA5D738007CF643 /* PedidoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		D34057621EA59D6D007CF643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34057651EA59D6D007CF643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D34057671EA59D6D007CF643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D340576D1EA59E5E007CF643 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		D340576F1EA5B761007CF643 /* MasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaViewController.swift; sourceTree = "<group>"; };
+		D34057731EA5BD25007CF643 /* QuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoViewController.swift; sourceTree = "<group>"; };
+		D34057751EA5BE29007CF643 /* IngredientesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesViewController.swift; sourceTree = "<group>"; };
+		D34057791EA5D738007CF643 /* PedidoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedidoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		D340575A1EA59D6C007CF643 /* iPizza para iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				D340576D1EA59E5E007CF643 /* pizza.jpg */,
 				D340575B1EA59D6D007CF643 /* AppDelegate.swift */,
 				D340575D1EA59D6D007CF643 /* ViewController.swift */,
+				D340576F1EA5B761007CF643 /* MasaViewController.swift */,
+				D34057731EA5BD25007CF643 /* QuesoViewController.swift */,
+				D34057751EA5BE29007CF643 /* IngredientesViewController.swift */,
 				D340575F1EA59D6D007CF643 /* Main.storyboard */,
 				D34057621EA59D6D007CF643 /* Assets.xcassets */,
 				D34057641EA59D6D007CF643 /* LaunchScreen.storyboard */,
 				D34057671EA59D6D007CF643 /* Info.plist */,
+				D34057791EA5D738007CF643 /* PedidoViewController.swift */,
 			);
 			path = "iPizza para iPhone";
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			files = (
 				D34057661EA59D6D007CF643 /* LaunchScreen.storyboard in Resources */,
 				D34057631EA59D6D007CF643 /* Assets.xcassets in Resources */,
+				D340576E1EA59E5E007CF643 /* pizza.jpg in Resources */,
 				D34057611EA59D6D007CF643 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34057741EA5BD25007CF643 /* QuesoViewController.swift in Sources */,
+				D34057701EA5B761007CF643 /* MasaViewController.swift in Sources */,
+				D34057761EA5BE29007CF643 /* IngredientesViewController.swift in Sources */,
+				D340577A1EA5D738007CF643 /* PedidoViewController.swift in Sources */,
 				D340575E1EA59D6D007CF643 /* ViewController.swift in Sources */,
 				D340575C1EA59D6D007CF643 /* AppDelegate.swift in Sources */,
 			);
@@ -250,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iPizza para iPhone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ST.iPizza-para-iPhone";
@@ -261,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iPizza para iPhone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ST.iPizza-para-iPhone";
@@ -287,6 +309,7 @@
 				D340576C1EA59D6D007CF643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
